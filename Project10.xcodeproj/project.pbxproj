@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5647C3842872C0E300BDF4D6 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5647C3832872C0E300BDF4D6 /* Person.swift */; };
+		5647C3862872E2F300BDF4D6 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5647C3852872E2F300BDF4D6 /* PersonCell.swift */; };
 		5672AE7A2871C03C00BB8169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5672AE792871C03C00BB8169 /* AppDelegate.swift */; };
 		5672AE7C2871C03C00BB8169 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5672AE7B2871C03C00BB8169 /* SceneDelegate.swift */; };
 		5672AE7E2871C03C00BB8169 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5672AE7D2871C03C00BB8169 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5647C3832872C0E300BDF4D6 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5647C3852872E2F300BDF4D6 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 		5672AE762871C03C00BB8169 /* Project10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5672AE792871C03C00BB8169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5672AE7B2871C03C00BB8169 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +63,9 @@
 				5672AE792871C03C00BB8169 /* AppDelegate.swift */,
 				5672AE7B2871C03C00BB8169 /* SceneDelegate.swift */,
 				5672AE7D2871C03C00BB8169 /* ViewController.swift */,
+				5647C3832872C0E300BDF4D6 /* Person.swift */,
 				5672AE7F2871C03C00BB8169 /* Main.storyboard */,
+				5647C3852872E2F300BDF4D6 /* PersonCell.swift */,
 				5672AE822871C03F00BB8169 /* Assets.xcassets */,
 				5672AE842871C03F00BB8169 /* LaunchScreen.storyboard */,
 				5672AE872871C03F00BB8169 /* Info.plist */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5647C3842872C0E300BDF4D6 /* Person.swift in Sources */,
+				5647C3862872E2F300BDF4D6 /* PersonCell.swift in Sources */,
 				5672AE7E2871C03C00BB8169 /* ViewController.swift in Sources */,
 				5672AE7A2871C03C00BB8169 /* AppDelegate.swift in Sources */,
 				5672AE7C2871C03C00BB8169 /* SceneDelegate.swift in Sources */,
@@ -285,23 +293,28 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 35V8V5JVYK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Project10/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow Photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Project10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyProject010;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,23 +326,28 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 35V8V5JVYK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Project10/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow Photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Project10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyProject010;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
